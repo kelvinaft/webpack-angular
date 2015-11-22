@@ -1,0 +1,38 @@
+{
+  "name": "angularpack",
+  "version": "1.0.0",
+  "description": "angular pack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base app --hot"
+  },
+  "author": "kflores",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.2.0",
+    "babel-loader": "^6.2.0",
+    "css-loader": "^0.23.0",
+    "file-loader": "^0.8.4",
+    "jshint": "^2.8.0",
+    "jshint-loader": "^0.8.3",
+    "ng-annotate-loader": "0.0.10",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.6",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "angular": "^1.5.0-beta.2",
+    "angular-resource": "^1.4.8",
+    "angular-route": "^1.4.8",
+    "bourbon": "^4.2.6",
+    "jquery": "^2.1.4",
+    "mdi": "^1.0.8-beta",
+    "moment": "^2.10.6",
+    "node-lumx": "^1.0.0",
+    "node-mdi": "^1.0.0",
+    "velocity": "^0.7.2",
+    "velocity-animate": "^1.2.3"
+  }
+}
